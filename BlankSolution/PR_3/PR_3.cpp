@@ -6,7 +6,7 @@ void showArr(int arr[], int size);
 
 int main()
 {
-    const int arrSize = 100;
+    const int arrSize = 10;
     int arr[arrSize];
 
     int requiredKey = 0;
