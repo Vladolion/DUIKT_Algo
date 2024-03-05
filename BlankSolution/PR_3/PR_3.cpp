@@ -16,7 +16,9 @@ int main()
 
     for(int i = 0; i < arrSize; i++)
     {
-        arr[i] = 1 + rand() % 50;
+        std::cout << "Enter element " << i << ": ";
+        std::cin >> arr[i];
+        std::cout << std::endl;
     }
 
     showArr(arr, arrSize);
